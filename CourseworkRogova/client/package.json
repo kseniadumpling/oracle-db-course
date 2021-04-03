@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "crypto-js": "^4.0.0",
+    "feather-icons": "^4.28.0",
+    "history": "^4.10.1",
+    "jquery": "^3.5.1",
+    "js-file-download": "^0.4.12",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^5.1.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000/"
+}
